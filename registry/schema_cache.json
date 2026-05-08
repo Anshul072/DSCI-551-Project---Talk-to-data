@@ -1,0 +1,659 @@
+{
+  "player_data": {
+    "description": "Table contains basketball player information.",
+    "keywords": [
+      "11,",
+      "12,",
+      "14,",
+      "15,",
+      "18,",
+      "20,",
+      "22,",
+      "23,",
+      "26,",
+      "28,",
+      "31,",
+      "a.j.",
+      "afflalo",
+      "alabama",
+      "allen",
+      "aluma",
+      "anderson",
+      "anunoby",
+      "april",
+      "archibald",
+      "arkansas",
+      "arron",
+      "arthurs",
+      "aubuchon",
+      "august",
+      "austin",
+      "ball",
+      "banks",
+      "barnes",
+      "barron",
+      "bay",
+      "beal",
+      "beasley",
+      "bedell",
+      "behagen",
+      "birth",
+      "blalock",
+      "bob",
+      "boise",
+      "boney",
+      "bradley",
+      "bramlett",
+      "brandon",
+      "carolina",
+      "chet",
+      "christian",
+      "college",
+      "date",
+      "december",
+      "dexter",
+      "earl",
+      "end",
+      "february",
+      "franklin",
+      "gannon",
+      "green",
+      "harrison",
+      "hartford",
+      "height",
+      "january",
+      "jerome",
+      "john",
+      "july",
+      "june",
+      "kyle",
+      "lonzo",
+      "louisiana",
+      "loyola",
+      "march",
+      "marcus",
+      "marymount",
+      "may",
+      "methodist",
+      "montana",
+      "more",
+      "name",
+      "north",
+      "november",
+      "october",
+      "oregon",
+      "pennsylvania",
+      "peter",
+      "position",
+      "ray",
+      "rock",
+      "ron",
+      "september",
+      "slippery",
+      "southern",
+      "start",
+      "state",
+      "terrell",
+      "texas",
+      "thomas",
+      "tiny",
+      "tulane",
+      "university",
+      "utah",
+      "valparaiso",
+      "weight",
+      "will",
+      "wisconsin",
+      "year"
+    ],
+    "columns": [
+      [
+        "name",
+        "VARCHAR",
+        "Player's full name"
+      ],
+      [
+        "year_start",
+        "BIGINT",
+        "Start year of career"
+      ],
+      [
+        "year_end",
+        "BIGINT",
+        "End year of career"
+      ],
+      [
+        "position",
+        "VARCHAR",
+        "Player's position"
+      ],
+      [
+        "height",
+        "VARCHAR",
+        "Player's height"
+      ],
+      [
+        "weight",
+        "BIGINT",
+        "Player's weight"
+      ],
+      [
+        "birth_date",
+        "VARCHAR",
+        "Birth date in month day, year format"
+      ],
+      [
+        "college",
+        "VARCHAR",
+        "Player's college"
+      ]
+    ],
+    "row_count": 4550,
+    "enriched": true
+  },
+  "players": {
+    "description": "Information about basketball players.",
+    "keywords": [
+      "acadia",
+      "alabama",
+      "alex",
+      "andy",
+      "angeles",
+      "angelse",
+      "appalachian",
+      "argentina",
+      "astoria",
+      "bethel",
+      "birth",
+      "bob",
+      "bobb",
+      "born",
+      "brigham",
+      "bronx",
+      "buffalo",
+      "california",
+      "cape",
+      "carney",
+      "carolina",
+      "city",
+      "collage",
+      "college",
+      "column0",
+      "dakota",
+      "dallas",
+      "diute",
+      "don",
+      "donham",
+      "duncan",
+      "eastern",
+      "easy",
+      "eddie",
+      "estonia",
+      "feerick",
+      "fred",
+      "gene",
+      "george",
+      "groza",
+      "hardin",
+      "harvard",
+      "haute",
+      "hawaii",
+      "hedderick",
+      "height",
+      "herm",
+      "indianapolis",
+      "iowa",
+      "island",
+      "jack",
+      "jersey",
+      "joe",
+      "johnny",
+      "juliet",
+      "kansas",
+      "kearney",
+      "kentucky",
+      "los",
+      "mager",
+      "mahanoy",
+      "malvern",
+      "mateo",
+      "mccarthy",
+      "mcintosh",
+      "mcnamee",
+      "mcneese",
+      "medford",
+      "miami",
+      "michigan",
+      "mike",
+      "miller",
+      "minoa",
+      "mt.",
+      "nan",
+      "nebraska",
+      "nelson",
+      "new",
+      "norm",
+      "north",
+      "norway",
+      "o'donnell",
+      "oregon",
+      "painesville",
+      "parham",
+      "player",
+      "portland",
+      "provo",
+      "puerto",
+      "rhode",
+      "rico",
+      "san",
+      "savage",
+      "simmons",
+      "slovakia",
+      "slovenia",
+      "south",
+      "state",
+      "tennessee",
+      "terre",
+      "texas",
+      "todorovich",
+      "toomay",
+      "trenton",
+      "tulsa",
+      "university",
+      "university,",
+      "vance",
+      "vanderbilt",
+      "verde",
+      "virginia",
+      "weber",
+      "weight",
+      "west",
+      "whiting",
+      "york",
+      "young",
+      "zealand"
+    ],
+    "columns": [
+      [
+        "column0",
+        "BIGINT",
+        "Player ID"
+      ],
+      [
+        "Player",
+        "VARCHAR",
+        "Player name"
+      ],
+      [
+        "height",
+        "BIGINT",
+        "Player height"
+      ],
+      [
+        "weight",
+        "BIGINT",
+        "Player weight"
+      ],
+      [
+        "collage",
+        "VARCHAR",
+        "Player college"
+      ],
+      [
+        "born",
+        "BIGINT",
+        "Birth year"
+      ],
+      [
+        "birth_city",
+        "VARCHAR",
+        "Birth city"
+      ],
+      [
+        "birth_state",
+        "VARCHAR",
+        "Birth state"
+      ]
+    ],
+    "row_count": 3922,
+    "enriched": true
+  },
+  "seasons_stats": {
+    "description": "Basketball player statistics by season.",
+    "keywords": [
+      "age",
+      "alex",
+      "andy",
+      "blank2",
+      "blanl",
+      "bob",
+      "bobb",
+      "carney",
+      "chh",
+      "chi",
+      "chp",
+      "cin",
+      "cle",
+      "column00",
+      "diute",
+      "dnn",
+      "don",
+      "donham",
+      "duncan",
+      "easy",
+      "eddie",
+      "feerick",
+      "fred",
+      "ftw",
+      "gene",
+      "george",
+      "groza",
+      "hedderick",
+      "herm",
+      "hou",
+      "hub",
+      "jack",
+      "joe",
+      "johnny",
+      "kco",
+      "lal",
+      "mager",
+      "mccarthy",
+      "mcnamee",
+      "mike",
+      "miller",
+      "nelson",
+      "noj",
+      "norm",
+      "o'donnell",
+      "okc",
+      "parham",
+      "pho",
+      "player",
+      "pos",
+      "reed",
+      "roc",
+      "s/48",
+      "savage",
+      "sdc",
+      "sdr",
+      "stb",
+      "syr",
+      "todorovich",
+      "toomay",
+      "tri",
+      "vance",
+      "wsb",
+      "year"
+    ],
+    "columns": [
+      [
+        "column00",
+        "BIGINT",
+        "Player ID"
+      ],
+      [
+        "Year",
+        "BIGINT",
+        "Season year"
+      ],
+      [
+        "Player",
+        "VARCHAR",
+        "Player name"
+      ],
+      [
+        "Pos",
+        "VARCHAR",
+        "Player position"
+      ],
+      [
+        "Age",
+        "BIGINT",
+        "Player age"
+      ],
+      [
+        "Tm",
+        "VARCHAR",
+        "Team"
+      ],
+      [
+        "G",
+        "BIGINT",
+        "Games played"
+      ],
+      [
+        "GS",
+        "BIGINT",
+        "Games started"
+      ],
+      [
+        "MP",
+        "BIGINT",
+        "Minutes played"
+      ],
+      [
+        "PER",
+        "DOUBLE",
+        "Player efficiency"
+      ],
+      [
+        "TS%",
+        "DOUBLE",
+        "True shooting"
+      ],
+      [
+        "3PAr",
+        "DOUBLE",
+        "3-point attempt rate"
+      ],
+      [
+        "FTr",
+        "DOUBLE",
+        "Free throw rate"
+      ],
+      [
+        "ORB%",
+        "DOUBLE",
+        "Offensive rebound"
+      ],
+      [
+        "DRB%",
+        "DOUBLE",
+        "Defensive rebound"
+      ],
+      [
+        "TRB%",
+        "DOUBLE",
+        "Total rebound"
+      ],
+      [
+        "AST%",
+        "DOUBLE",
+        "Assist rate"
+      ],
+      [
+        "STL%",
+        "DOUBLE",
+        "Steal rate"
+      ],
+      [
+        "BLK%",
+        "DOUBLE",
+        "Block rate"
+      ],
+      [
+        "TOV%",
+        "DOUBLE",
+        "Turnover rate"
+      ],
+      [
+        "USG%",
+        "DOUBLE",
+        "Usage rate"
+      ],
+      [
+        "blanl",
+        "VARCHAR",
+        "Unknown"
+      ],
+      [
+        "OWS",
+        "DOUBLE",
+        "Offense wins"
+      ],
+      [
+        "DWS",
+        "DOUBLE",
+        "Defense wins"
+      ],
+      [
+        "WS",
+        "DOUBLE",
+        "Total wins"
+      ],
+      [
+        "WS/48",
+        "DOUBLE",
+        "Wins per 48"
+      ],
+      [
+        "blank2",
+        "VARCHAR",
+        "Unknown"
+      ],
+      [
+        "OBPM",
+        "DOUBLE",
+        "Offense BPM"
+      ],
+      [
+        "DBPM",
+        "DOUBLE",
+        "Defense BPM"
+      ],
+      [
+        "BPM",
+        "DOUBLE",
+        "Total BPM"
+      ],
+      [
+        "VORP",
+        "DOUBLE",
+        "Value over replacement"
+      ],
+      [
+        "FG",
+        "BIGINT",
+        "Field goals"
+      ],
+      [
+        "FGA",
+        "BIGINT",
+        "Field goal attempts"
+      ],
+      [
+        "FG%",
+        "DOUBLE",
+        "Field goal percentage"
+      ],
+      [
+        "3P",
+        "BIGINT",
+        "3-point made"
+      ],
+      [
+        "3PA",
+        "BIGINT",
+        "3-point attempts"
+      ],
+      [
+        "3P%",
+        "DOUBLE",
+        "3-point percentage"
+      ],
+      [
+        "2P",
+        "BIGINT",
+        "2-point made"
+      ],
+      [
+        "2PA",
+        "BIGINT",
+        "2-point attempts"
+      ],
+      [
+        "2P%",
+        "DOUBLE",
+        "2-point percentage"
+      ],
+      [
+        "eFG%",
+        "DOUBLE",
+        "Effective FG percentage"
+      ],
+      [
+        "FT",
+        "BIGINT",
+        "Free throws"
+      ],
+      [
+        "FTA",
+        "BIGINT",
+        "Free throw attempts"
+      ],
+      [
+        "FT%",
+        "DOUBLE",
+        "Free throw percentage"
+      ],
+      [
+        "ORB",
+        "BIGINT",
+        "Offensive rebounds"
+      ],
+      [
+        "DRB",
+        "BIGINT",
+        "Defensive rebounds"
+      ],
+      [
+        "TRB",
+        "BIGINT",
+        "Total rebounds"
+      ],
+      [
+        "AST",
+        "BIGINT",
+        "Assists"
+      ],
+      [
+        "STL",
+        "BIGINT",
+        "Steals"
+      ],
+      [
+        "BLK",
+        "BIGINT",
+        "Blocks"
+      ],
+      [
+        "TOV",
+        "BIGINT",
+        "Turnovers"
+      ],
+      [
+        "PF",
+        "BIGINT",
+        "Personal fouls"
+      ],
+      [
+        "PTS",
+        "BIGINT",
+        "Points scored"
+      ]
+    ],
+    "row_count": 24691,
+    "enriched": true
+  }
+}

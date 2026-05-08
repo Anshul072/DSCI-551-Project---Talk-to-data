@@ -1,0 +1,6 @@
+duckdb>=0.10.0
+python-dotenv>=1.0.0
+pandas>=2.2.0
+plotly>=5.22.0
+groq>=0.9.0
+scikit-learn>=1.4.0
