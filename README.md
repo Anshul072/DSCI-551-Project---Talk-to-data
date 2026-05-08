@@ -42,13 +42,7 @@ No database server installation is needed. DuckDB runs embedded inside the Pytho
 
 ## Installation
 
-### Option A — pip (standard)
-
-```bash
-pip install -r requirements.txt
-```
-
-### Option B — uv (faster, recommended)
+### uv (faster, recommended)
 
 ```bash
 # Install uv if you don't have it
